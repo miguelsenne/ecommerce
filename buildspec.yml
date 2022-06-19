@@ -4,8 +4,6 @@ phases:
   pre_build:
     commands:
       - npm install
-  testing:
-    commands:
       - npm test
   build:
     commands:
